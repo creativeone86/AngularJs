@@ -9,6 +9,7 @@ angularApp.controller('mainController', function ($scope, $log, $filter, $resour
     $scope.formattedName = $filter('uppercase')($scope.name);
     
     console.log($resource);
+    // make something 
     
 });
 
